@@ -1,0 +1,35 @@
+{
+  "name": "jovem-eleitor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "date-fns": "^2.8.0",
+    "file-loader": "^4.3.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "node-sass": "^4.13.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0",
+    "react-text-mask": "^5.4.3"
+  }
+}
